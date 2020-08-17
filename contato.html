@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lupe de Lupe - Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <div id="bd">
+        <ul id="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
 
-    <h1>Entre em contato com a Lupe</h1>
+        <div class="center">
+            <h1>Entre em contato com a Lupe</h1>
 
-    <form>
-        <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
+            <div class="container">
+                <div>
+                    <h2>Mande uma mensagem</h2>
+                    <form>
+                        <span>
+                            <label for="nome">Nome:</label>
+                            <input class="block w-250" type="text" id="nome">
+                        </span>
+
+                        <span>
+                            <label for="email">Email:</label>
+                            <input class="block w-250" type="email" id="email">
+                        </span>
+
+                        <span>
+                            <label for="assunto">Assunto:</label>
+                            <input class="block w-250" type="text" id="assunto">
+                        </span>
+
+                        <span>
+                            <label for="assunto">Mensagem:</label>
+                            <textarea class="block w-250" name="msg" id="msg" cols="30" rows="5"></textarea>
+                        </span>
+
+                        <button>Enviar</button>
+
+                    </form>
+                </div>
+
+                <div>
+                    <h2>Endereço</h2>
+
+                    <p>Governador Valadares - Minas Gerais</p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71834.32079937098!2d-41.98515339202194!3d-18.872594476352234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1a7947c2e06c7%3A0x76454399f628aa6f!2sGov.%20Valadares%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1597669891948!5m2!1spt-BR!2sbr"
+                        width="400" height="270" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email">
-        </div>
-
-        <div>
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
-        </div>
-
-        <div>
-        <button>Enviar</button>
-        </div>
-    </form>
-
-    <h2>Endereço</h2>
-
-    <p>Governador Valadares - Minas Gerais</p>
-a
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71834.32079937098!2d-41.98515339202194!3d-18.872594476352234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1a7947c2e06c7%3A0x76454399f628aa6f!2sGov.%20Valadares%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1597669891948!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <footer id="bottom">
+        Todo o conteúdo dessa página de estudo foi retirado do <a href="http://www.lupedelupe.com.br/"
+            target="_blank">site oficial</a> e <a href="https://lupedelupe.bandcamp.com/" target="_blank">Bandcamp</a>
+        da Lupe de Lupe.
+    </footer>
 
 </body>
+
 </html>
