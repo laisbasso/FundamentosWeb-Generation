@@ -28,22 +28,26 @@
                     <form>
                         <span>
                             <label for="nome">Nome:</label>
-                            <input class="block w-250" type="text" id="nome">
+                            <input class="block w-250" type="text" id="nome" onkeyup="validaNome()">
+                            <span id="txtNome"></span>
                         </span>
 
                         <span>
                             <label for="email">Email:</label>
-                            <input class="block w-250" type="email" id="email">
+                            <input class="block w-250" type="email" id="email" onkeyup="validaEmail()">
+                            <span id="txtEmail"></span>
                         </span>
 
                         <span>
                             <label for="assunto">Assunto:</label>
                             <input class="block w-250" type="text" id="assunto">
+                            <span id="txtAssunto"></span>
                         </span>
 
                         <span>
                             <label for="assunto">Mensagem:</label>
                             <textarea class="block w-250" name="msg" id="msg" cols="30" rows="5"></textarea>
+                            <span id="txtMsg"></span>
                         </span>
 
                         <button>Enviar</button>
@@ -65,11 +69,13 @@
         </div>
     </div>
 
-    <footer id="bottom">
+    <footer>
         Todo o conteúdo dessa página de estudo foi retirado do <a href="http://www.lupedelupe.com.br/"
             target="_blank">site oficial</a> e <a href="https://lupedelupe.bandcamp.com/" target="_blank">Bandcamp</a>
         da Lupe de Lupe.
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
