@@ -1,7 +1,7 @@
-let nome = window.document.getElementById("nome")
-let email = window.document.querySelector("#email")
-let assunto = window.document.getElementById("assunto")
-let msg = window.document.getElementById("msg")
+let nome = document.getElementById("nome")
+let email = document.getElementById("email")
+/* data? e estado? falta o ultimo video*/
+let msg = document.getElementById("msg")
 
 function validaNome(){
     let txtNome = document.getElementById("txtNome")

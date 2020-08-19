@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img id="logo" src="https://i.imgur.com/bD9FgBs.png" alt="Logo da Generation"></li>
+            <li><a href="">Sobre a Generation</a></li>
+            <li><a href="">Sobre o Curso</a></li>
+            <li><a href="">Currículo</a></li>
+            <li><a href="">Mercado de Trabalho</a></li>
+            <li><a href="">Inscreva-se</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sobre a Generation-->
+    <section id="sobre">
+        <h1 class="text-center">Sobre a Generation</h1>
+
+        <div class="container-sobre">
+            <div class="margin-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis dolorem molestiae, voluptatibus debitis earum consequatur est ipsa ipsam sed. Cum ex nisi repellendus commodi, fugit facere perspiciatis aspernatur inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, ad quisquam. Quas laudantium perspiciatis veritatis deserunt velit, possimus quia voluptates accusantium. Iusto maxime praesentium cumque ea dicta sint et id.</p>
+            </div>
+
+            <div class="margin-left">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kdGWKGM7yoA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+    <!-- /Sobre a Generation -->
+
+    <!-- Sobre o Curso -->
+
+    <section id="sobre-curso">
+        <h2 class="text-center">Sobre o Curso</h2>
+
+        <div class="container-sobreCurso">
+            <div>
+                <img id="img-react" src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- /Sobre o Curso -->
+
+    <!-- Currículo -->
+
+    <div id="curriculo">
+
+        <h2 class="text-center">Currículo</h2>
+
+        <div id="container-curriculo">
+            <div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- /Currículo -->
+
+    <!-- Mercado de Trabalho -->
+
+
+
+    <!-- /Mercado de Trabalho -->
+
+    <!-- Inscreva-se -->
+
+        <h2 class="text-center">Inscreva-se</h2>
+
+        <div class="container-center">
+
+        <form>
+            <span>
+                <label for="nome">Nome completo:</label>
+                <input class="input-padrao block" type="text" id="nome" onkeyup="validaNome()">
+                <span id="txtNome"></span>
+            </span>
+
+            <span>
+                <label for="email">Email:</label>
+                <input class="input-padrao block" type="email" id="email" onkeyup="validaEmail()">
+                <span id="txtEmail"></span>
+            </span>
+
+            <span>
+                <label for="nasc">Data de nascimento:</label>
+                <input class="input-padrao block" type="date" id="nasc" onkeyup="validaEmail()">
+                <span id="txtNasc"></span>
+            </span>
+
+            <span>
+                <label for="estado">Estado em que reside:</label>
+                <select class="block" type="estado" id="estado" onkeyup="validaEmail()">
+                <option>SP</option>
+                <option>RJ</option>
+                <option>RN</option>
+                </select>
+            </span>
+
+            <span>
+                <label for="msg">Como você ficou sabendo da Generation:</label>
+                <textarea class="block" name="msg" id="msg" cols="30" rows="5"></textarea>
+                <span id="txtMsg"></span>
+            </span>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+    <!-- /Inscreva-se -->
+
+    <!-- Footer -->
+
+    <footer>
+        <p class="text-center">2020 Generation: You Employed, Inc.</p>
+    </footer>
+
+    <!-- /Footer -->
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
