@@ -4,12 +4,13 @@ Exercícios de *Fundamentos Web* utilizando *HTML, CSS, JS* e *Bootstrap* realiz
 
 ## HTML, CSS e JS
 
-* :dog: [Aula 1](https://github.com/laisbasso/SpringBoot-Generation/tree/master/Aula%201/blogPessoal "Blog Pessoal"): Página Lupe de Lupe
+* :dog: [Aula 1](https://site-lupe.netlify.app/ "Página Lupe de Lupe"): Página Lupe de Lupe
 
-* :tangerine: [Aula 2](https://github.com/laisbasso/SpringBoot-Generation/tree/master/Aula%202 "Habilidades e Objetivos"): Landing Page Generation
+* :tangerine: [Aula 2](https://landing-generation.netlify.app/ "Landing Page Generation"): Landing Page Generation
 
 ## Bootstrap
 
-* :carousel_horse: [Aula 3](https://github.com/laisbasso/SpringBoot-Generation/tree/master/Aula%203/escola "Escola"): Página Bootstrap
+* :carousel_horse: [Aula 3](https://teste-bootstrap.netlify.app/ "Página Bootstrap"): Página Bootstrap
 
-* :chicken: [Aula 4](https://github.com/laisbasso/SpringBoot-Generation/tree/master/Aula%204/minhaescola "Minha Escola"): Réplica Kitchening
+* :chicken: [Aula 4](https://replica-kitchening.netlify.app/ "Réplica Kitchening
+"): Réplica Kitchening
